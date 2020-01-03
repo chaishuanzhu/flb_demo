@@ -21,7 +21,7 @@ class _Tab1PageState extends State<Tab1Page> {
               title: Text("$index"),
               onTap: () {
                 FlutterBoost.singleton
-                    .open("next", exts: {"animated": true}).then((val) {
+                    .open("flbdemo://flutter/next", exts: {"animated": true}).then((val) {
                   print(val);
                 });
               },
@@ -31,7 +31,7 @@ class _Tab1PageState extends State<Tab1Page> {
         floatingActionButton: FloatingActionButton(
           onPressed: () {
             FlutterBoost.singleton
-                .open("next", exts: {"animated": true}).then((val) {
+                .open("flbdemo://flutter/next", exts: {"animated": true}).then((val) {
               print(val);
             });
           },

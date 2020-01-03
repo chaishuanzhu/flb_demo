@@ -19,7 +19,7 @@ class _Tab3PageState extends State<Tab3Page> {
           return ListTile(
             title: Text("$index"),
             onTap: () {
-              FlutterBoost.singleton.open("next", exts: {"animated": true}).then((val){
+              FlutterBoost.singleton.open("flbdemo://flutter/next", exts: {"animated": true}).then((val){
                 print(val);
               });
             },

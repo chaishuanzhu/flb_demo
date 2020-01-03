@@ -26,6 +26,8 @@
 		F51FBC9E23BDF3F8005D5D43 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51FBC9D23BDF3F8005D5D43 /* MyNavigationController.m */; };
 		F51FBCA123BDF8CC005D5D43 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F51FBCA023BDF8CC005D5D43 /* MyTabBarController.m */; };
 		F5D7808923BED2FC00392C2D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D7808823BED2FC00392C2D /* LoginViewController.m */; };
+		F5D7808F23BEEDB400392C2D /* Navigator.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D7808E23BEEDB400392C2D /* Navigator.m */; };
+		F5D7809523BEF67400392C2D /* NativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D7809423BEF67400392C2D /* NativeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -76,6 +78,11 @@
 		F51FBCA023BDF8CC005D5D43 /* MyTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
 		F5D7808723BED2FC00392C2D /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		F5D7808823BED2FC00392C2D /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		F5D7808D23BEEDB400392C2D /* Navigator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Navigator.h; sourceTree = "<group>"; };
+		F5D7808E23BEEDB400392C2D /* Navigator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Navigator.m; sourceTree = "<group>"; };
+		F5D7809023BEF45200392C2D /* RouterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RouterProtocol.h; sourceTree = "<group>"; };
+		F5D7809323BEF67400392C2D /* NativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeViewController.h; sourceTree = "<group>"; };
+		F5D7809423BEF67400392C2D /* NativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +156,11 @@
 				F51FBCA023BDF8CC005D5D43 /* MyTabBarController.m */,
 				F5D7808723BED2FC00392C2D /* LoginViewController.h */,
 				F5D7808823BED2FC00392C2D /* LoginViewController.m */,
+				F5D7808D23BEEDB400392C2D /* Navigator.h */,
+				F5D7808E23BEEDB400392C2D /* Navigator.m */,
+				F5D7809023BEF45200392C2D /* RouterProtocol.h */,
+				F5D7809323BEF67400392C2D /* NativeViewController.h */,
+				F5D7809423BEF67400392C2D /* NativeViewController.m */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -324,9 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5D7809523BEF67400392C2D /* NativeViewController.m in Sources */,
 				F51FBC9823BDE99F005D5D43 /* PlatformRouterImp.m in Sources */,
 				F51FBC9E23BDF3F8005D5D43 /* MyNavigationController.m in Sources */,
 				978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */,
+				F5D7808F23BEEDB400392C2D /* Navigator.m in Sources */,
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				F51FBC9B23BDEDD9005D5D43 /* FLBViewController.m in Sources */,
 				F5D7808923BED2FC00392C2D /* LoginViewController.m in Sources */,

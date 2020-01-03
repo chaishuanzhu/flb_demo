@@ -13,6 +13,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface PlatformRouterImp : NSObject<FLBPlatform>
+
 @property (nonatomic,strong) UINavigationController *navigationController;
 
 @end

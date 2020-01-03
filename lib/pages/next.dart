@@ -25,7 +25,7 @@ class _NextPageState extends State<NextPage> {
             title: Text("$index"),
             onTap: () {
               FlutterBoost.singleton
-                  .open("next", exts: {"animated": true}).then((val) {
+                  .open("flbdemo://flutter/next", exts: {"animated": true}).then((val) {
                 print(val);
               });
             },

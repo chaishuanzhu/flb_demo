@@ -9,7 +9,6 @@ class Tab4Page extends StatefulWidget {
 }
 
 class _Tab4PageState extends State<Tab4Page> {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -17,11 +16,13 @@ class _Tab4PageState extends State<Tab4Page> {
         title: Text("Tab4"),
       ),
       body: ListView(
-        children: List.generate(20, (int index){
+        children: List.generate(20, (int index) {
           return ListTile(
             title: Text("$index"),
             onTap: () {
-              FlutterBoost.singleton.open("next", exts: {"animated": true}).then((val){
+              FlutterBoost.singleton.open("flbdemo://native/page",
+                  urlParams: {"key1": "val1", "key2": "val3"},
+                  exts: {"animated": true}).then((val) {
                 print(val);
               });
             },

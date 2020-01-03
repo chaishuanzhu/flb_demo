@@ -19,10 +19,10 @@ class _MyAppState extends State<MyApp> {
     super.initState();
 
     FlutterBoost.singleton.registerPageBuilders({
-      'tab1': (pageName, params, _) => Tab1Page(),
-      'tab3': (pageName, params, _) => Tab3Page(),
-      'tab4': (pageName, params, _) => Tab4Page(),
-      'next': (pageName, params, _) => NextPage(),
+      'flbdemo://flutter/tab1': (pageName, params, _) => Tab1Page(),
+      'flbdemo://flutter/tab3': (pageName, params, _) => Tab3Page(),
+      'flbdemo://flutter/tab4': (pageName, params, _) => Tab4Page(),
+      'flbdemo://flutter/next': (pageName, params, _) => NextPage(),
     });
   }
 
